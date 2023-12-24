@@ -1,6 +1,5 @@
 #include <WiFi.h>
 #include <WiFiClient.h>
-#include <I2SAudioReceiver.h>
 #include <I2SAudioSender.h>
 #include <Button.h>
 
@@ -8,7 +7,6 @@ Button testbutton(9);
 
 WiFiClient client;
 I2SAudioSender sendVoice;
-I2SAudioReceiver recvVoice;
 
 void setup()
 {
