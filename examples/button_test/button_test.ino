@@ -19,6 +19,6 @@ void loop()
     }
     else if (state == BUTTON_RELEASED)
     {
-      Serial.println("버튼 눌림");
+      Serial.println("버튼 땜");
     }
 }
